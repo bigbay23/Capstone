@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E82D8FDD23457A11004942DA /* Page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82D8FDC23457A11004942DA /* Page3.swift */; };
 		E85439102330571D00A99732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E854390F2330571D00A99732 /* AppDelegate.swift */; };
 		E85439122330571D00A99732 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85439112330571D00A99732 /* ViewController.swift */; };
 		E85439152330571D00A99732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85439132330571D00A99732 /* Main.storyboard */; };
 		E85439172330571E00A99732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85439162330571E00A99732 /* Assets.xcassets */; };
 		E854391A2330571E00A99732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85439182330571E00A99732 /* LaunchScreen.storyboard */; };
+		E8CBF1BC2331C40900C0C0D8 /* Barcode Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBF1BB2331C40900C0C0D8 /* Barcode Scanner.swift */; };
+		E8F3661823457DEE00FA09E6 /* Page4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3661723457DEE00FA09E6 /* Page4.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E82D8FE423457AC6004942DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E82D8FDE23457AC6004942DA /* BartenderMe.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1416BB83233E936F00ACFAC7;
+			remoteInfo = BartenderMe;
+		};
+		E82D8FE623457AC6004942DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E82D8FDE23457AC6004942DA /* BartenderMe.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1416BB99233E937000ACFAC7;
+			remoteInfo = BartenderMeTests;
+		};
+		E82D8FE823457AC6004942DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E82D8FDE23457AC6004942DA /* BartenderMe.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1416BBA4233E937000ACFAC7;
+			remoteInfo = BartenderMeUITests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		E82D8FDC23457A11004942DA /* Page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3.swift; sourceTree = "<group>"; };
+		E82D8FDE23457AC6004942DA /* BartenderMe.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BartenderMe.xcodeproj; path = ../../BartenderMe.xcodeproj; sourceTree = "<group>"; };
 		E854390C2330571D00A99732 /* BartenderMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BartenderMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E854390F2330571D00A99732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E85439112330571D00A99732 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +51,8 @@
 		E85439162330571E00A99732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E85439192330571E00A99732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E854391B2330571E00A99732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CBF1BB2331C40900C0C0D8 /* Barcode Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Barcode Scanner.swift"; sourceTree = "<group>"; };
+		E8F3661723457DEE00FA09E6 /* Page4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +66,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E82D8FDF23457AC6004942DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E82D8FE523457AC6004942DA /* BartenderMe.app */,
+				E82D8FE723457AC6004942DA /* BartenderMeTests.xctest */,
+				E82D8FE923457AC6004942DA /* BartenderMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E85439032330571D00A99732 = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +97,11 @@
 			children = (
 				E854390F2330571D00A99732 /* AppDelegate.swift */,
 				E85439112330571D00A99732 /* ViewController.swift */,
+				E8CBF1BB2331C40900C0C0D8 /* Barcode Scanner.swift */,
+				E82D8FDC23457A11004942DA /* Page3.swift */,
+				E8F3661723457DEE00FA09E6 /* Page4.swift */,
 				E85439132330571D00A99732 /* Main.storyboard */,
+				E82D8FDE23457AC6004942DA /* BartenderMe.xcodeproj */,
 				E85439162330571E00A99732 /* Assets.xcassets */,
 				E85439182330571E00A99732 /* LaunchScreen.storyboard */,
 				E854391B2330571E00A99732 /* Info.plist */,
@@ -110,12 +155,42 @@
 			mainGroup = E85439032330571D00A99732;
 			productRefGroup = E854390D2330571D00A99732 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E82D8FDF23457AC6004942DA /* Products */;
+					ProjectRef = E82D8FDE23457AC6004942DA /* BartenderMe.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E854390B2330571D00A99732 /* BartenderMe */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E82D8FE523457AC6004942DA /* BartenderMe.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BartenderMe.app;
+			remoteRef = E82D8FE423457AC6004942DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E82D8FE723457AC6004942DA /* BartenderMeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BartenderMeTests.xctest;
+			remoteRef = E82D8FE623457AC6004942DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E82D8FE923457AC6004942DA /* BartenderMeUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BartenderMeUITests.xctest;
+			remoteRef = E82D8FE823457AC6004942DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E854390A2330571D00A99732 /* Resources */ = {
@@ -136,7 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85439122330571D00A99732 /* ViewController.swift in Sources */,
+				E8F3661823457DEE00FA09E6 /* Page4.swift in Sources */,
 				E85439102330571D00A99732 /* AppDelegate.swift in Sources */,
+				E82D8FDD23457A11004942DA /* Page3.swift in Sources */,
+				E8CBF1BC2331C40900C0C0D8 /* Barcode Scanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
