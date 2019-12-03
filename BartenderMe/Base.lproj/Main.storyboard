@@ -261,6 +261,30 @@
                                     <string>Title</string>
                                 </scopeButtonTitles>
                             </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gq3-rd-hz4">
+                                <rect key="frame" x="17" y="45" width="73" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Favorites"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="S2X-Ab-AYd">
+                                <rect key="frame" x="28" y="20.333333333333258" width="50" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FvC-8y-2bv">
+                                <rect key="frame" x="352" y="46" width="41" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Scan">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kVk-J0-NE9">
+                                <rect key="frame" x="349" y="10.999999999999886" width="47" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
@@ -289,7 +313,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WPf-GF-Cwf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1500.0000000000002" y="132.88043478260872"/>
+            <point key="canvasLocation" x="1776.8115942028987" y="132.88043478260872"/>
         </scene>
         <!--Captain and Coke-->
         <scene sceneID="0Mw-WM-C0n">
@@ -346,7 +370,7 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-10-29 at 7.45.44 PM" translatesAutoresizingMaskIntoConstraints="NO" id="X87-Uk-Tzn">
-                                <rect key="frame" x="-67" y="240" width="481" height="274"/>
+                                <rect key="frame" x="-67" y="240" width="481" height="548"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -472,10 +496,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vodka soda" translatesAutoresizingMaskIntoConstraints="NO" id="sjd-33-QGB">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="226"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="102"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-10-30 at 10.23.21 AM" translatesAutoresizingMaskIntoConstraints="NO" id="fkc-dX-Lam">
-                                <rect key="frame" x="-110" y="234" width="524" height="248"/>
+                                <rect key="frame" x="-110" y="110" width="524" height="496"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="524" id="5Xq-Xu-3qP"/>
                                 </constraints>
@@ -513,7 +537,7 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-10-29 at 7.45.25 PM" translatesAutoresizingMaskIntoConstraints="NO" id="lxC-iQ-25m">
-                                <rect key="frame" x="-154" y="228" width="584" height="240"/>
+                                <rect key="frame" x="-154" y="228" width="584" height="480"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="584" id="bfl-zb-bCF"/>
                                 </constraints>
@@ -550,7 +574,7 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-10-29 at 7.45.33 PM" translatesAutoresizingMaskIntoConstraints="NO" id="WPu-ZR-uxM">
-                                <rect key="frame" x="-129" y="232" width="543" height="278"/>
+                                <rect key="frame" x="-129" y="232" width="543" height="556"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="543" id="H07-OA-mMl"/>
                                 </constraints>
@@ -662,7 +686,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="237"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-10-21 at 9.42.55 PM" translatesAutoresizingMaskIntoConstraints="NO" id="kdx-i2-YVA">
-                                <rect key="frame" x="0.0" y="245" width="414" height="368"/>
+                                <rect key="frame" x="0.0" y="245" width="414" height="736"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -761,10 +785,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pine puss" translatesAutoresizingMaskIntoConstraints="NO" id="IgR-QC-NGi">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="243"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="486"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-10-21 at 9.28.43 PM" translatesAutoresizingMaskIntoConstraints="NO" id="5gf-yI-ScZ">
-                                <rect key="frame" x="0.0" y="236" width="414" height="342"/>
+                                <rect key="frame" x="0.0" y="236" width="414" height="684"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1228,7 +1252,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-10-24 at 9.57.09 PM" translatesAutoresizingMaskIntoConstraints="NO" id="b7Q-ac-Bsg">
-                                <rect key="frame" x="-36" y="258" width="450" height="408"/>
+                                <rect key="frame" x="-36" y="258" width="450" height="816"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -6517,7 +6541,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8kB-d5-Ghw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="448" y="133"/>
+            <point key="canvasLocation" x="-249" y="126"/>
         </scene>
         <!--Brandy Page-->
         <scene sceneID="s9P-6Y-iOE">
@@ -9989,6 +10013,7 @@
         <image name="brandy" width="300" height="168"/>
         <image name="brandy cock" width="275" height="183"/>
         <image name="cake royal" width="275" height="183"/>
+        <image name="camera" catalog="system" width="64" height="48"/>
         <image name="camus" width="300" height="168"/>
         <image name="captainandcoke" width="275" height="183"/>
         <image name="captian" width="289" height="174"/>
@@ -10053,6 +10078,7 @@
         <image name="sidecar" width="259" height="194"/>
         <image name="skyy" width="285" height="177"/>
         <image name="smirnoff" width="264" height="191"/>
+        <image name="star.fill" catalog="system" width="64" height="58"/>
         <image name="sunrise tequila" width="279" height="180"/>
         <image name="sunset cocktail" width="256" height="197"/>
         <image name="svedka" width="288" height="175"/>
